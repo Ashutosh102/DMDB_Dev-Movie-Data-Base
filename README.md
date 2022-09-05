@@ -32,15 +32,13 @@ An entertainment web app built with Next.js and TailwindCSS that allows users to
 
 ### Screenshot
 
-![](./assets/home.png)
+![image](https://user-images.githubusercontent.com/75971776/188475483-3402830f-0a8f-4088-ab5c-ba1b705d5da0.png)
+![image](https://user-images.githubusercontent.com/75971776/188475606-366227d5-7840-4803-9535-1fa71e555913.png)
+![image](https://user-images.githubusercontent.com/75971776/188475745-41db3f8b-325e-4c06-babf-8d6345b37519.png)
+![image](https://user-images.githubusercontent.com/75971776/188475917-9b9636f1-284b-40ab-a39b-2719a2e9f541.png)
+![image](https://user-images.githubusercontent.com/75971776/188476149-fb87c9a6-d71c-47a1-93ca-6b15decc28a9.png)
+![image](https://user-images.githubusercontent.com/75971776/188476433-7739838c-3c75-4638-882b-b0fdb87eb97b.png)
 
-![](./assets/movie-genre.png)
-
-![](./assets/tv-genre.png)
-
-![](./assets/search-result.png)
-
-![](./assets/movie-detail.png)
 
 ## Details
 
