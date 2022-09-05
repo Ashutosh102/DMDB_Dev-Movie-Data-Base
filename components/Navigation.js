@@ -29,6 +29,7 @@ export default function Navigation() {
           <IconNavBookmark />
         </NavigationIcon> */}
       </div>
+      <a href="https://github.com/Ashutosh102">
       <div className='flex items-center justify-center rounded-full bg-app-pure-white p-px'>
         <Image
           className='rounded-full'
@@ -39,6 +40,7 @@ export default function Navigation() {
           unoptimized
         />
       </div>
+      </a>
     </nav>
   )
 }
