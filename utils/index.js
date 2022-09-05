@@ -1,5 +1,3 @@
-import { v4 as uuidv4 } from 'uuid'
-
 export const TMDB_ENDPOINT = process.env.TMDB_ENDPOINT
 export const TMDB_API_KEY = process.env.TMDB_API_KEY
 export const TMDB_IMAGE_ENDPOINT = 'https://image.tmdb.org/t/p/original'
