@@ -65,11 +65,10 @@ Although this is not a particularly big project, I still think it is a good prac
 
 ### Lesson learned
 
-I could not count how many lessons that I have learned from building this application. However, there are 3 most important lessons that I got out of it.
+I could not count how many lessons that I have learned from building this application. However, there is av most important lesson that I got out of it.
 
 1. Using `useSWR` to implement pagination in the search result pages and the "see more" pages.
-2. Be careful to not expose the secret keys that we store as environment variables. Initially, I fetched the data from the API directly on the client-side, I have exposed the API key to the client, I could see the key when I opened up the network tab in the dev tool. This is risky and should be avoided. Later on, I changed the method and fetch the data from the server side so that the secret key could be hidden from the user.
-3. Have a better understanding of the error `Cannot read Property 'slice' of Undefined`. Whenever we need to fetch the data from external API, we should make sure that the data exists before we use it in our application. Let say we want an array of movies to be rendered to the UI, but the data is not available yet. According to [this article](https://bobbyhadz.com/blog/javascript-cannot-read-property-slice-of-undefined), we have various solution for this error. The one that I find easiest to understand is to provide an empty fallback value like so: `const arr = data.slice(0, 10) || []`.
+
 
 ### Future improvements
 
